@@ -127,6 +127,10 @@ func (cfg *NodeConfig) UnmarshalHJSON(b []byte) error {
 }
 
 func (cfg *NodeConfig) postprocessConfig() error {
+	if len(cfg.PrivateKey) == 32 {
+		newPrivateKey := ed25519.NewKeyFromSeed(cfg.PrivateKey)
+		cfg.PrivateKey = append(cfg.PrivateKey, newPrivateKey.Public().(ed25519.PublicKey)...)
+	}
 	if cfg.PrivateKeyPath != "" {
 		cfg.PrivateKey = nil
 		f, err := os.ReadFile(cfg.PrivateKeyPath)
