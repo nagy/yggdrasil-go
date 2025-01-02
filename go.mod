@@ -11,6 +11,7 @@ require (
 	github.com/hashicorp/go-syslog v1.0.0
 	github.com/hjson/hjson-go/v4 v4.4.0
 	github.com/kardianos/minwinsvc v1.0.2
+	github.com/mdlayher/vsock v1.2.1
 	github.com/quic-go/quic-go v0.48.2
 	github.com/vishvananda/netlink v1.3.0
 	github.com/wlynxg/anet v0.0.5
@@ -29,6 +30,7 @@ require (
 	github.com/go-task/slim-sprig v0.0.0-20230315185526-52ccab3ef572 // indirect
 	github.com/google/pprof v0.0.0-20210407192527-94a9f03dee38 // indirect
 	github.com/mattn/go-colorable v0.1.13 // indirect
+	github.com/mdlayher/socket v0.4.1 // indirect
 	github.com/onsi/ginkgo/v2 v2.9.5 // indirect
 	github.com/rivo/uniseg v0.2.0 // indirect
 	go.uber.org/mock v0.4.0 // indirect
