@@ -11,6 +11,7 @@ require (
 	github.com/hashicorp/go-syslog v1.0.0
 	github.com/hjson/hjson-go/v4 v4.7.1
 	github.com/kardianos/minwinsvc v1.0.2
+	github.com/mdlayher/vsock v1.3.0
 	github.com/quic-go/quic-go v0.63.0
 	github.com/vishvananda/netlink v1.3.1
 	github.com/wlynxg/anet v0.0.5
@@ -31,9 +32,11 @@ require (
 	github.com/clipperhouse/uax29/v2 v2.7.0 // indirect
 	github.com/goccy/go-json v0.10.6 // indirect
 	github.com/mattn/go-colorable v0.1.15 // indirect
+	github.com/mdlayher/socket v0.6.0 // indirect
 	github.com/olekukonko/cat v0.0.0-20250911104152-50322a0618f6 // indirect
 	github.com/olekukonko/errors v1.3.0 // indirect
 	github.com/olekukonko/ll v0.1.8 // indirect
+	golang.org/x/sync v0.23.0 // indirect
 )
 
 require (

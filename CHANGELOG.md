@@ -26,6 +26,13 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - in case of vulnerabilities.
 -->
 
+## [0.5.xx] - 2026-xx-xx
+
+### Added
+
+* VSOCK support for peerings, by using the new `vsock://` scheme in `Listen` and `Peers`.
+ * Use e.g. `vsock://local:1234`.
+
 ## [0.5.14] - 2026-06-19
 
 * Go 1.25 is now required to build Yggdrasil
